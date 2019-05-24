@@ -9,11 +9,11 @@ This example uses Flask, a tiny webserver in Python.
 4. [Run script](#4startcode)
 5. [Result](#result)
 
-[Tips](#tips)
+Then:
 
-[Next](#next)
-
-[How does oAuth work?](#how)
+- [Tips](#tips)
+- [Next](#next)
+- [How does oAuth work?](#how)
 
 
 <a name="1prepare"/>
@@ -70,6 +70,9 @@ these with the 'Integration ID' that's also displayed!)
 5. Click "here" to login and see what happens.
 
 
+
+<a name="result"/>
+
 # 5. Result
 
 First page
@@ -83,6 +86,8 @@ Click 'here', redirect to Webex Teams, Authenticate, then click "Accept" to allo
 The result
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/DJF3/Webex-Teams-Flask-oAuth/master/images/step3-yourinfo.png" width=""/>
+
+
 
 
 <a name="tips"/>
@@ -103,6 +108,7 @@ The result
 **Look at** these other resources:
 - [Awesome Webex](https://github.com/CiscoDevNet/awesome-webex) Github page
 - [Learning Labs](https://learninglabs.cisco.com) Fantastic online labs
+
 
 
 
