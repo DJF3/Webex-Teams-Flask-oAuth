@@ -26,7 +26,7 @@ app = Flask(__name__)
 # This is the 'main page' that contains a login link.
 @app.route('/')
 def hello():
-    html = "Hello World, click <a href='http://127.0.0.1:5000/gologin'>here</a> to authenticate"
+    html = "<br>Hello World!<br>Click <a href='http://127.0.0.1:5000/gologin'>here</a> to authenticate"
     return html
 
 
