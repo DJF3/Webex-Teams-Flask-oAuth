@@ -80,7 +80,10 @@ these with the 'Integration ID' that's also displayed!)
 
 # Next
 
-- Take a look at the code. I've tried to keep it as simple as possible. You should be able to understand what's happening, which steps are taken. 
+**Take a look at the code!** I've tried to keep it as simple as possible. When reading it you should be able to understand what's happening and which steps are taken. Also look at the oAuth flow image below
+**Look at** these other resources:
+- [Awesome Webex](https://github.com/CiscoDevNet/awesome-webex) Github page
+- [Learning Labs](https://learninglabs.cisco.com) Fantastic online labs
 
 
 
@@ -89,7 +92,8 @@ these with the 'Integration ID' that's also displayed!)
 # How does oAuth work?
 
 I've taken one of the summary slides from my oAuth presentations. 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/DJF3/Webex-Teams-Flask-oAuth/master/webex-teams-oauth-flow.jpg" width="500px">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="webex-teams-oauth-flow.jpg" width="700px">          
 
 
 
