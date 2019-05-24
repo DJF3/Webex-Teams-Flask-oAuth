@@ -75,17 +75,17 @@ these with the 'Integration ID' that's also displayed!)
 
 # 5. Result
 
-First page
+- First page
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/DJF3/Webex-Teams-Flask-oAuth/master/images/step1-clickhere.png" width=""/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/DJF3/Webex-Teams-Flask-oAuth/master/images/step1-clickhere.png" width=""/>
 
-Click 'here', redirect to Webex Teams, Authenticate, then click "Accept" to allow your code to 'do stuff on your behalf' (using the oAuth access token to retrieve your name and email address)
+- Click 'here', redirect to Webex Teams, Authenticate, then click "Accept" to allow your code to 'do stuff on your behalf' (using the oAuth access token to retrieve your name and email address)
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/DJF3/Webex-Teams-Flask-oAuth/master/images/step2-authandaccept.png" width=""/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/DJF3/Webex-Teams-Flask-oAuth/master/images/step2-authandaccept.png" width=""/>
 
-The result
+- The result
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/DJF3/Webex-Teams-Flask-oAuth/master/images/step3-yourinfo.png" width=""/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/DJF3/Webex-Teams-Flask-oAuth/master/images/step3-yourinfo.png" width=""/>
 
 
 
