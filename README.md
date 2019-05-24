@@ -8,6 +8,8 @@ This example uses Flask, a tiny webserver in Python.
 3. [Update script](#3updatecode)
 4. [Run script](#4startcode)
 5. [Tips](#tips)
+6. [Next](#next)
+[How does oAuth work?](#how)
 
 
 <a name="1prepare"/>
@@ -20,6 +22,10 @@ This example uses Flask, a tiny webserver in Python.
 	- version >3.6 or higher: continue
 	- version <3.6: try again with "Python3 -V"
 4. In Python type "import flask" and press enter. If there's no error message, continue, otherwise troubleshoot.
+
+In case you're wondering: [how does oauth work?](#how)
+
+
 
 
 <a name="2create"/>
@@ -67,6 +73,28 @@ these with the 'Integration ID' that's also displayed!)
 - Mac users: use the [Atom editor](https://atom.io/) and make sure it has Python syntax highlighting
    (BTW, one of my favourite packages is "highlight-selected")
 - Windows users: [Notepad++](https://notepad-plus-plus.org/download/v7.7.html) 
+
+
+
+<a name="next"/>
+
+# Next
+
+- Take a look at the code. I've tried to keep it as simple as possible. You should be able to understand what's happening, which steps are taken. 
+
+
+
+<a name="how"/>
+
+# How does oAuth work?
+
+I've taken one of the summary slides from my oAuth presentations. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/DJF3/Webex-Teams-Flask-oAuth/master/webex-teams-oauth-flow.jpg" width="500px">
+
+
+
+
+
 
 
 Enjoy!
