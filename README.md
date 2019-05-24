@@ -7,8 +7,12 @@ This example uses Flask, a tiny webserver in Python.
 2. [Create Webex Teams Integration](#2create) (oAuth)
 3. [Update script](#3updatecode)
 4. [Run script](#4startcode)
-5. [Tips](#tips)
-6. [Next](#next)
+5. [Result](#result)
+
+[Tips](#tips)
+
+[Next](#next)
+
 [How does oAuth work?](#how)
 
 
@@ -64,6 +68,21 @@ these with the 'Integration ID' that's also displayed!)
 3. You should see Flask starting and waiting to work
 4. Open a browser and go to http://127.0.0.1:5000
 5. Click "here" to login and see what happens.
+
+
+# 5. Result
+
+First page
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/DJF3/Webex-Teams-Flask-oAuth/master/images/step1-clickhere.png" width=""/>
+
+Click 'here', redirect to Webex Teams, Authenticate, then click "Accept" to allow your code to 'do stuff on your behalf' (using the oAuth access token to retrieve your name and email address)
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/DJF3/Webex-Teams-Flask-oAuth/master/images/step2-authandaccept.png" width=""/>
+
+The result
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/DJF3/Webex-Teams-Flask-oAuth/master/images/step3-yourinfo.png" width=""/>
 
 
 <a name="tips"/>
