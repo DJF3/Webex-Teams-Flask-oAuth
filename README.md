@@ -1,3 +1,4 @@
+<img src="images/logo-webex-teams.png" style="float:right;"/>
 # Webex-Teams-Flask-oAuth
 Example code of Python with Flask to do Webex Teams authentication using oAuth
 This example uses Flask, a tiny webserver in Python.
