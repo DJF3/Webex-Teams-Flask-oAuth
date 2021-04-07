@@ -1,10 +1,10 @@
-# Webex-Teams-Flask-oAuth
-<img src="https://raw.githubusercontent.com/DJF3/Webex-Teams-Flask-oAuth/master/images/logo-webex-teams.png" width="120px" align="right"/>Example code of Python with Flask to do Webex Teams authentication using oAuth
+# Webex-Message-Flask-oAuth
+<img src="https://raw.githubusercontent.com/DJF3/Webex-Teams-Flask-oAuth/master/images/logo-webex-teams.png" width="120px" align="right"/>Example code of Python with Flask to do Webex Message (Teams) authentication using oAuth.
 This example uses Flask, a tiny webserver in Python.
 
 # Start 
 1. [Prepare](#1prepare)
-2. [Create Webex Teams Integration](#2create) (oAuth)
+2. [Create Webex Integration](#2create) (oAuth)
 3. [Update script](#3updatecode)
 4. [Run script](#4startcode)
 5. [Result](#result)
@@ -38,7 +38,7 @@ In case you're wondering: [how does oauth work?](#how)
 
 1. https://developer.webex.com
 2. Login 
-3. "My Webex Teams Apps" (click your Avatar on the top right)
+3. "My Webex Apps" (click your Avatar on the top right)
 4. Create a New App
 5. Integration
   1. Integration name: pick a useful and descriptive name
@@ -79,7 +79,7 @@ these with the 'Integration ID' that's also displayed!)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/DJF3/Webex-Teams-Flask-oAuth/master/images/step1-clickhere.png" width=""/>
 
-- Click 'here', redirect to Webex Teams, Authenticate, then click "Accept" to allow your code to 'do stuff on your behalf' (using the oAuth access token to retrieve your name and email address)
+- Click 'here', redirect to Webex Message, Authenticate, then click "Accept" to allow your code to 'do stuff on your behalf' (using the oAuth access token to retrieve your name and email address)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/DJF3/Webex-Teams-Flask-oAuth/master/images/step2-authandaccept.png" width=""/>
 
@@ -121,6 +121,10 @@ I've taken one of the summary slides from my oAuth presentations.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/webex-teams-oauth-flow.jpg" width="700px">          
 
 
+
+
+# More projects...
+...and information will be posted in the Webex Developer LinkedIn Group: http://cs.co/webexdevlink
 
 
 
