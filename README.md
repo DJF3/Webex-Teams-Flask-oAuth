@@ -125,9 +125,7 @@ I've taken one of the summary slides from my oAuth presentations.
 
 # More projects...
 ...and information will be posted in the Webex Developer LinkedIn Group: http://cs.co/webexdevlink
-
-
-
+Webex Developer Resource overview: http://cs.co/webexdevinfo
 
 
 Enjoy!
