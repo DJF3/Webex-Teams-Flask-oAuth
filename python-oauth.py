@@ -1,10 +1,26 @@
+# Python example with Flask and a Webex Message oAuth Integration.
+#    DJ Uittenbogaard (duittenb@cisco.com)
+"""Webex Virtual Background Logo Insertion Script.
+Allows you to insert an image (like a logo) in a specific space on a
+virtual background of a Cisco Webex Desk Pro video device.
+Copyright (c) 2019 Cisco and/or its affiliates.
+This software is licensed to you under the terms of the Cisco Sample
+Code License, Version 1.1 (the "License"). You may obtain a copy of the
+License at
+               https://developer.cisco.com/docs/licenses
+All use of the material herein must be in accordance with the terms of
+the License. All rights not expressly granted by the License are
+reserved. Unless required by applicable law or agreed to separately in
+writing, software distributed under the License is distributed on an "AS
+IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+or implied.
+"""
 # ------------------------------------------------------------
-# This is an example of Python with Flask & Webex Teams oAuth.
 # START: create integration with "people_read" as the scope and
 #        populate the variables below
 # TIP: use text editor with syntax highlighting to make it easier
 #      to read like Atom (Mac) or Notepad++ (Win)
-# INSTRUCTIONS: https://github.com/DJF3/Webex-Teams-Flask-oAuth/
+# more info: https://github.com/DJF3/Webex-Teams-Flask-oAuth/
 # ------------------------------------------------------------
 from flask import Flask, redirect, url_for, request
 import requests
@@ -34,9 +50,9 @@ def hello():
 # url: /gologin
 # This does 2 things:
 #   1. URL = /gologin
-#          Redirect user to Webex Teams to authenticate (when you clicked 'here' above)
+#          Redirect user to Webex to authenticate (when you clicked 'here' above)
 #   2. URL = /gologin?code=SE293AJXKSE293AJXKSE293AJXK
-#          This is Webex Teams returning the Auth.code after succesfull login
+#          This is Webex returning the Auth.code after succesfull login
 #          With this code+clientId+clientSecret you can get the real user token
 #          Then do an API call to /people/me to get my details
 @app.route('/gologin')
@@ -44,7 +60,7 @@ def gologin():
     # read the URL that was called (like '127.0.0.1:5000/gologin')
     query = request.url
 
-    # 1. URL = /gologin ('code' not in URL) in the URL: Redirect user to Webex Teams to authenticate
+    # 1. URL = /gologin ('code' not in URL) in the URL: Redirect user to Webex to authenticate
     if 'code' not in query:
         # Create the redirect URL
         oauthRedirectUrl = get_oauthRedirectUrl(myClientID, myRedirectURI, myScope)
@@ -52,7 +68,7 @@ def gologin():
         return redirect(oauthRedirectUrl)
 
     # 2. URL = /gologin?code=SE293AJXKSE293AJXK..etc
-    #       Webex Teams returning the Auth.code after succesfull login
+    #       Webex returning the Auth.code after succesfull login
     if 'code' in query:
         # Extract the 'code' from the URL
         teamsAuthCode = query.split('=', 1)[-1]
