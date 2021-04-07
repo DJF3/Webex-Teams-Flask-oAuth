@@ -1,4 +1,4 @@
-# Webex-Message-Flask-oAuth
+# Webex Message Flask oAuth Integration
 <img src="https://raw.githubusercontent.com/DJF3/Webex-Teams-Flask-oAuth/master/images/logo-webex-teams.png" width="120px" align="right"/>Example code of Python with Flask to do Webex Message (Teams) authentication using oAuth.
 This example uses Flask, a tiny webserver in Python.
 
