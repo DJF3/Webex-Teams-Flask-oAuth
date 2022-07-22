@@ -1,8 +1,6 @@
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/DJF3/Webex-Teams-Flask-oAuth)
 # Webex Message Flask oAuth Integration
 
-webex-flask-oauth-
-
 <img src="https://github.com/DJF3/My-Image-Repo/blob/main/webex-flask-oauth-2021-04apr-WebexIntegration-Flask-example_small.jpg?raw=true" width="700px"/>
 Example code of Python with Flask to do Webex Message (Teams) authentication using oAuth.
 This example uses Flask, a tiny webserver in Python.
