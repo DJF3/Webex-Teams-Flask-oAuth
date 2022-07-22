@@ -1,8 +1,9 @@
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/DJF3/Webex-Teams-Flask-oAuth)
 # Webex Message Flask oAuth Integration
 
+webex-flask-oauth-
 
-<img src="https://raw.githubusercontent.com/DJF3/Webex-Teams-Flask-oAuth/master/images/2021-04apr-WebexIntegration-Flask-example.jpg" width="700px"/>
+<img src="https://github.com/DJF3/My-Image-Repo/blob/main/webex-flask-oauth-2021-04apr-WebexIntegration-Flask-example_small.jpg?raw=true" width="700px"/>
 Example code of Python with Flask to do Webex Message (Teams) authentication using oAuth.
 This example uses Flask, a tiny webserver in Python.
 
@@ -81,15 +82,15 @@ these with the 'Integration ID' that's also displayed!)
 
 - First page
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/DJF3/Webex-Teams-Flask-oAuth/master/images/step1-clickhere.png" width=""/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/DJF3/My-Image-Repo/blob/main/webex-flask-oauth-step1-clickhere.png?raw=true" width=""/>
 
 - Click 'here', redirect to Webex Message, Authenticate, then click "Accept" to allow your code to 'do stuff on your behalf' (using the oAuth access token to retrieve your name and email address)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/DJF3/Webex-Teams-Flask-oAuth/master/images/step2-authandaccept.png" width=""/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/DJF3/My-Image-Repo/blob/main/webex-flask-oauth-step2-authandaccept.png?raw=true" width=""/>
 
 - The result
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/DJF3/Webex-Teams-Flask-oAuth/master/images/step3-yourinfo.png" width=""/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/DJF3/My-Image-Repo/blob/main/webex-flask-oauth-step3-yourinfo.png?raw=true" width=""/>
 
 
 
@@ -122,14 +123,15 @@ these with the 'Integration ID' that's also displayed!)
 
 I've taken one of the summary slides from my oAuth presentations. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/webex-teams-oauth-flow.jpg" width="700px">          
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/DJF3/My-Image-Repo/blob/main/webex-flask-oauth-webex-teams-oauth-flow.jpg?raw=true" width="700px">          
 
 
 
 
 # More projects...
-...and information will be posted in the Webex Developer LinkedIn Group: http://cs.co/webexdevlink
-Webex Developer Resource overview: http://cs.co/webexdevinfo
+...more information posted here:
+- Webex Developer LinkedIn Group: http://cs.co/webexdevlink
+- Webex Developer Resource overview: http://cs.co/webexdevinfo
 
 
 Enjoy!
