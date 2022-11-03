@@ -49,7 +49,7 @@ In case you're wondering: [how does oauth work?](#how)
   3. Icon: select one
   4. Description: tell yourself what you are testing
   5. Redirect URI: the URL that Webex needs to go to when you authenticated succesfully 
-  (most likely http://127.0.0.1:5000)
+  (http://127.0.0.1:5000/gologin) (thanks muthvar1!)
   6. Scopes: spark:people_read
   7. Add integration
 
